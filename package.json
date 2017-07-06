@@ -1,0 +1,21 @@
+
+{
+  "name": "react-native-locale-manager",
+  "version": "1.0.0",
+  "description": "Change app locale via iOS UserDefaults, or Android SharedPreferences.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native", 
+    "NSUserDefaults",
+    "SharedPreferences",
+    "Locale"
+  ],
+  "author": "twairball@yahoo.com",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  }
+}
