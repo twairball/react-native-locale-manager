@@ -11,10 +11,15 @@
     "react-native", 
     "NSUserDefaults",
     "SharedPreferences",
-    "Locale"
+    "locale"
   ],
   "author": "twairball@yahoo.com",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twairball/react-native-locale-manager.git"
+  },
+  "homepage": "https://github.com/twairball/react-native-locale-manager",
   "peerDependencies": {
     "react-native": "^0.41.2"
   }
