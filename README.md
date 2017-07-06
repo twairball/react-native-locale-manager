@@ -34,22 +34,20 @@
       compile project(':react-native-locale-manager')
   	```
 
-#### Windows
-[Read it! :D](https://github.com/ReactWindows/react-native)
-
-1. In Visual Studio add the `RNLocaleManager.sln` in `node_modules/react-native-locale-manager/windows/RNLocaleManager.sln` folder to their solution, reference from their app.
-2. Open up your `MainPage.cs` app
-  - Add `using Com.Reactlibrary.RNLocaleManager;` to the usings at the top of the file
-  - Add `new RNLocaleManagerPackage()` to the `List<IReactPackage>` returned by the `Packages` method
-
-
 ## Usage
+
+This module does not read device locale. 
+
+This module works in conjunction with https://github.com/stefalda/ReactNativeLocalization
+
 ```javascript
 import LocaleManager from 'react-native-locale-manager';
 
 // get locale
 LocaleManager.get().then((locale) => {
-	console.log("[Profile getLocale]", locale)
+	console.log("Locale: ", locale)
+
+	// Alert user to restart app to see language changes. 
 });
 
 // set locale
@@ -60,4 +58,5 @@ LocaleManager.clear();
 
 
 ```
+
   
